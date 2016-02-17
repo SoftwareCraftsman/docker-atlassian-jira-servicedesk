@@ -4,7 +4,7 @@ MAINTAINER Software Craftsmen GmbH & Co KG <office@software-craftsmen.at>
 ENV SERVICEDESK_VERSION=3.1.0-jira-7.1.0-x64
 
 RUN apt-get upgrade -y && apt-get install -y wget && \
-    wget https://www.atlassian.com/software/jira/downloads/binary/atlassian-servicedesk-$SERVICEDESK_VERSION.bin -O atlassian-servicedesk-$SERVICEDESK_VERSION.bin && \
+    wget --no-verbose https://www.atlassian.com/software/jira/downloads/binary/atlassian-servicedesk-$SERVICEDESK_VERSION.bin -O atlassian-servicedesk-$SERVICEDESK_VERSION.bin && \
     chmod a+x atlassian-servicedesk-$SERVICEDESK_VERSION.bin
 
 # Run the installer
