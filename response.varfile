@@ -1,0 +1,8 @@
+#install4j response file for JIRA Service Desk 3.1.0
+#Tue Feb 16 17:15:47 UTC 2016
+executeLauncherAction$Boolean=true
+app.install.service$Boolean=false
+sys.confirmedUpdateInstallationString=false
+existingInstallationDir=/usr/local/JIRA Service Desk
+sys.languageId=en
+sys.installationDir=/opt/atlassian/jira
