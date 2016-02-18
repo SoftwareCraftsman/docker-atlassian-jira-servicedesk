@@ -1,5 +1,7 @@
 # README
 
+[![](https://badge.imagelayers.io/softwarecraftsmen/atlassian-servicedesk:latest.svg)](https://imagelayers.io/?images=softwarecraftsmen/atlassian-servicedesk:latest)
+
 ## Prepare a docker host
 
 ```sh
