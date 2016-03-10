@@ -1,6 +1,6 @@
 # README
 
-[![](https://badge.imagelayers.io/softwarecraftsmen/atlassian-servicedesk:latest.svg)](https://imagelayers.io/?images=softwarecraftsmen/atlassian-servicedesk:latest)
+[![](https://badge.imagelayers.io/softwarecraftsmen/atlassian-jira-servicedesk:latest.svg)](https://imagelayers.io/?images=softwarecraftsmen/atlassian-jira-servicedesk:latest)
 
 ## Prepare a docker host
 
@@ -17,8 +17,8 @@ eval `docker-machine env atlassian` <3>
 ## Run a ServiceDesk instance
 
 ```sh
-docker pull softwarecraftsmen/atlassian-servicedesk
-docker run -d --name servicedesk -p 8080:8080 atlassian-servicedesk
+docker pull softwarecraftsmen/atlassian-jira-servicedesk
+docker run -d --name servicedesk -p 8080:8080 atlassian-jira-servicedesk
 ```
 
 Startup after creating a container takes some time as the installation and configuration process is continuing.
